@@ -4,7 +4,8 @@ from langchain.output_parsers import StructuredOutputParser
 import os
 import openai
 
-os.environ['OPENAI_API_KEY'] = "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"  #  insert your opeanai api key
+
+os.environ['OPENAI_API_KEY'] = API_KEY  #  insert your opeanai api key
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
 
